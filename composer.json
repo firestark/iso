@@ -1,0 +1,41 @@
+{
+    "name": "firestark/iso",
+    "version": "0.0.1",
+    "description": "Class aliases for ronanguilloux/isocodes library.",
+    "type": "library",
+    "keywords": [ "iso" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aron Wouters",
+            "email": "lionar@mail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ronanguilloux/isocodes": "*"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+        	
+        },
+        "files": [
+        	"aliases.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+
+        },
+        "classmap": [
+
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "dev"
+}
